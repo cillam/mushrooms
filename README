@@ -1,0 +1,51 @@
+*Mushroom Classification Models*
+
+======================================================================
+Priscilla Miller
+8/23/2023
+Final Project, COMPSCIX433.6-021, Intro to Machine Learning
+======================================================================
+Project filename: mushrooms.ipynb
+
+**Background and Objective**
+The primary dataset used for this project is the Mushroom dataset that was originally contributed to the UCI Machine Learning repository in April of 1987 by the Audobon Society Field Guide. The mushrooms are described in terms of physical characteristics and are classified as poisonous or edible. Mushroom hunting is a popular activity and machine learning can aid in determining mushrooms that are safe to eat versus poisonous based on a mushroom's features. In this project, I attempt to build such a machine learning model. 
+
+A secondary dataset is also used to build a mushroom classification model based on an image of a mushroom.
+
+**Data Description**
+The primary data set includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family.  Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended. This latter class was combined with the poisonous one. 
+
+The secondary dataset comprises 9 folders of images of the most common Northern European mushroom genuses. Each folder consists of from 300 to 1500 selected images of mushrooms genuses. Labels are the folder's names.
+
+Sources: 
+https://archive.ics.uci.edu/dataset/73/mushroom, https://towardsdatascience.com/logistic-regression-model-tuning-with-scikit-learn-part-1-425142e01af5, https://www.tensorflow.org/tutorials/images/classification, https://www.kaggle.com/datasets/maysee/mushrooms-classification-common-genuss-images?resource=download
+
+**Requirements**
+
+Platform/System: Jupyter Notebook
+Python Version: Python 3.10.9
+
+Packages and Dependencies:
+  1. Packages
+     + pandas
+     + numpy
+     + matplotlib.pyplot
+     + seaborn
+     + sklearn.compose
+     + sklearn.preprocessing
+     + sklearn.model_selection
+     + sklearn.naive_bayes
+     + sklearn.ensemble
+     + sklearn.linear_model
+     + sklearn.feature_selection
+     + sklearn.pipeline
+     + sklearn.metrics
+     + PIL
+     + pathlib
+     + tensorflow
+
+  2. Dependencies 
+     + original_mushrooms.data
+     + mushroom_img directory
+
+Note: Jupyter Notebook cells should be run in sequential order. 
